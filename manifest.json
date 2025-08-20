@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Tab-Stash",
+  "version": "1.0",
+  "description": "Save and restore tab sessions to reduce clutter and improve focus.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "bookmarks",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

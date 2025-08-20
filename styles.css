@@ -1,0 +1,104 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  width: 350px;
+  padding: 10px;
+  background-color: #f4f5f7;
+  color: #172b4d;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+  margin: 5px 0 15px 0;
+}
+
+.header {
+  margin-bottom: 15px;
+}
+
+.new-stash-controls {
+  display: flex;
+  gap: 5px;
+}
+
+#new-stash-name {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#stash-list {
+  margin-top: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.stash-item {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.stash-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.stash-name {
+  font-size: 16px;
+}
+
+.stash-actions {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.stash-actions button {
+  flex-grow: 1;
+  font-size: 12px;
+  padding: 6px;
+}
+
+.btn-restore { background-color: #28a745; }
+.btn-restore:hover { background-color: #218838; }
+
+.btn-bookmark { background-color: #ffc107; color: #212529; }
+.btn-bookmark:hover { background-color: #e0a800; }
+
+.btn-delete { background-color: #dc3545; }
+.btn-delete:hover { background-color: #c82333; }
+
+.footer-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-actions button {
+  flex-grow: 1;
+  background-color: #6c757d;
+}
+
+.footer-actions button:hover {
+  background-color: #5a6268;
+}
